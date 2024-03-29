@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+		<link rel="stylesheet"  title="style 1"  href="Muscu_style.css" />
+        <title>Générateur de programme sportif !</title>
+	</head>
+
+    <body>
+		<p class="fond_bandeau">
+		<img class="logo1" src="image_site/Logo.jpg" alt="Logo" /><a class="titre">GENERE TON PROGRAMME SPORTIF</a><img class="logo2" src="image_site/Logo.jpg" alt="Logo" />
+		
+		<p class="bandeau">
+		<a class="accueil" href="Accueil.html">Accueil</a><a class="muscu" href="Muscu.html">Muscu</a><a class="course" href="A lire !.html">A lire</a><a class="challenge" href="A lire !.html">Challenge du mois !</a>
+		</p>
+		</p>
+		
+		<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+		
+		<a class="debut"> Vous trouverez ici <strong>le programme adéquat</strong>, mais avant cela,<br/> nous allons avoir besoin de quelques informations vous concernant.<br/> Répondez aux questions ci-dessous :<br/>
+		(Vous avez la possibilité de créer autant de programmes que vous le souhaitez, veillez juste à bien remplir le formulaire)</a>
+		<br/><br/><br/>
+		
+		<h2>
+			<ul>
+				<li>Tout d'abord, faisons connaissance ! <br/> Présentez-vous : </li>
+			</ul>
+		</h2>
+		
+		<form  action ="site.php" method="post">
+			<p class="paragraphe">
+			<strong>
+				Votre nom :
+					<input name="nom" size="24" tabindex="1"	type="text"><br/>
+					<br/>
+				Votre prénom :
+					<input name="prenom" size="20" tabindex="2" type="text"><br/>
+					<br/>
+				Votre ville :
+					<input name="ville" size="24" tabindex="3" type="text"><br/>
+		
+		<h2>
+			<ul>
+				<li>Quel(s) groupe(s) musculaire(s) souhaitez-vous travailler ?</li>
+			</ul>
+		</h2>
+		<p class="paragraphe">
+				<input name="muscle" value="1" type="radio">Pectoraux <br/>
+				<input name="muscle" value="2" type="radio">Dos <br/>
+				<input name="muscle" value="3" type="radio">Biceps<br/>
+				<input name="muscle" value="4" type="radio">Triceps<br/>
+				<input name="muscle" value="5" type="radio">Epaules<br/>
+				<input name="muscle" value="6" type="radio">Jambes<br/>
+				<input name="muscle" value="7" type="radio">Abdominaux<br/>				
+			</p>
+		<h2>
+			<ul>
+				<li>À quelle fréquence pratiquez-vous ?</li>
+			</ul>
+		</h2>
+			<p class="paragraphe">	
+				Combien de fois par semaine ?
+				<select id="Genre" name="genre" size="1">
+				<option value="1"> 1 fois
+				<option value="2"> 2 fois
+				<option value="3"> 3 fois
+				<option value="4"> 4 fois (conseillé)
+				<option value="5"> 5 fois (conseillé)
+				<option value="6"> 6 fois
+				<option value="7"> 7 fois (déconseillé)</select><br />
+			</p>
+		<h2>
+			<ul>
+				<li>Quel(s) matériel(s) possédez-vous / avez-vous à disposition ?</li>
+			</ul>
+		</h2>
+			<p class="paragraphe">	
+				Si vous n'en avez pas, <strong><i>cochez</i></strong> la case "<u>Aucun</u>" : <br/>
+				<br/>
+				<input name="matos" value="1" type="radio">Aucun<br/>
+				<input name="matos" value="2" type="radio">Barre de dips<br/>				
+				<input name="matos" value="3" type="radio">Barre/Haltères<br/>
+				<input name="matos" value="4" type="radio">Barre de traction<br/>
+				<input name="matos" value="5" type="radio">Salle de sport (tout)<br/>
+				<input name="matos" value="6" type="radio">Bandes élastiques<br/>							
+				<br/>
+				
+			</p>
+		<h2>
+			<ul>
+				<li>Merci pour ces infos ! <br/> Cliquez sur "Générer" pour découvrir votre programme !</li>
+			</ul>
+		</h2>
+
+			<p class="paragraphe">
+			<input value="Générer" type="submit">
+			</form>
+			
+		<p class="contact">
+			Contactez nous par les réseaux : <a href="https://www.instagram.com/?hl=fr"><img class="logo_reseaux" src="image_site/logo_insta.png" alt="logo de instagram"/></a> @programme_sportif_perso ; <a href="https://twitter.com"><img class="logo_reseaux" src="image_site/logo_twitter.png" alt="logo de twitter"/></a> @programme_sportif_perso
+		</p>
+		</form>
+	</body>
+	
+</html>

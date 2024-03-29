@@ -1,0 +1,17 @@
+Recapitulatif rapide
+
+Brainstorming (collectif) : organisation et répartition équitable du travail, croquis sur l'apparence du site, 
+sur les champs du formulaire, sur les attributs des tables de la BDD, correction de bugs mineurs (problèmes de 
+résolution écran, problèmes de connexion, suppression de lignes inutiles...)
+
+Erwan : création de la base de données (avec choix des clés primaires et étrangères), bandeau fixe, 
+page d'accueil, fichier css.
+
+P.A : page formulaire, fichier php (liaison a la bdd, ecriture dans la bdd, génération du programme, messages en
+cas d'erreur de connexion à la base ou de champs vides du formulaire)).
+
+Informations
+- Partie "Challenge du mois !" non fonctionnelle par manque de temps
+- Partie "Muscu" fonctionnelle mais lire la page html "A lire !"
+- Connexion et écriture dans la BDD fonctionnelle
+

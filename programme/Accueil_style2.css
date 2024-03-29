@@ -1,0 +1,233 @@
+body
+{
+   color: #000000 ; 
+   background-color: #FFFFFF;
+}
+
+
+.logo1
+{
+	width : 150px;
+	height : auto;
+	position : fixed;
+	top : 0%;
+	left : 0%;
+	z-index: 101;
+	
+}
+.logo2
+{
+	width : 150px;
+	height : auto;
+	position : fixed;
+	top : 0%;
+	right : 0%;
+	z-index: 101;
+}
+.titre
+{
+	color:#FFFFFF ;
+	font-family: Baskerville Old Face;
+	font-size: 200%;
+	text-decoration : underline;
+	position : fixed;
+	top : 5%;
+	left : 50%;
+	transform: translate(-50%, 0%);
+	z-index: 10;
+}
+
+.accueil
+{
+	color:#FFFFFF ; 
+	font-size: 120%;
+	position : fixed;
+	top : 120px;
+	left : 15%;
+}
+.muscu
+{
+	color:#FFFFFF ; 
+	font-size: 120%;
+	position : fixed;
+	top : 120px;
+	left : 35%;
+}
+.course
+{
+	color:#FFFFFF ; 
+	font-size: 120%;
+	position : fixed;
+	top : 120px;
+	left : 55%;
+}
+.challenge
+{
+	color:#FFFFFF ; 
+	font-size: 120%;
+	position : fixed;
+	top : 120px;
+	left : 75%;
+	z-index: 48;
+}
+.bandeau
+{
+	background:#1456FC ; 
+	font-family : Bodoni MT Condensed;
+	padding: 2%;
+	position : fixed;
+	top : 85px;
+	left : 150px;
+	right : 150px;
+	z-index: 10;
+}
+.fond_bandeau
+{
+	background : #1456FC;
+	padding: 80px;
+	position: fixed;
+	top : -3%;
+	left : 0%;
+	width: 100%;
+	height: auto;
+	z-index: 10;
+}
+
+
+
+
+.paragraphe1
+{
+	background-color:#1456FC ;
+	color : white;
+	font-family : Bodoni MT Condensed;
+	font-size : 32px;
+	border: thick double white;
+	border-radius: 30px;
+	padding: 20px; 
+	margin-left: 50%;
+	margin-right: 2%;
+	position: absolute;
+	top : 325px;
+	z-index: 2;
+}
+
+.titre1
+{
+	margin-left: 0%;
+	position: absolute;
+	top : 220px;
+	z-index: 2;
+}
+
+.exemple_programme
+{
+	width : 500px;
+	height : auto;
+	position: absolute;
+	left: 5%;
+	top : 250px;
+	z-index: 1;
+}
+
+
+
+
+
+.paragraphe2
+{
+	background-color:#1456FC ;
+	color : white;
+	font-family : Bodoni MT Condensed;
+	font-size : 32px;
+	border: thick double white;
+	border-radius: 30px;
+	padding: 20px; 
+	margin-left: 2%;
+	margin-right: 55%;
+	position: absolute;
+	top : 950px;
+	z-index: 2;
+}
+
+.titre2
+{
+	margin-left: 0%;
+	position: absolute;
+	top : 900px;
+	z-index: 2;
+}
+
+.image_collectif
+{
+	width : 45%;
+	height : auto;
+	position: absolute;
+	right: 100px;
+	top : 1000px;
+	z-index: 1;
+}
+
+
+
+
+
+.paragraphe3
+{
+	background-color:#1456FC ;
+	color : white;
+	font-family : Bodoni MT Condensed;
+	font-size : 32px;
+	border: thick double white;
+	border-radius: 30px;
+	padding: 20px; 
+	margin-left: 50%;
+	margin-right: 2%;
+	position: absolute;
+	top : 1550px;
+	z-index: 2;
+}
+
+.titre3
+{
+	margin-left: 0%;
+	position: absolute;
+	top : 1500px;
+	z-index: 2;
+}
+
+.image_challenge
+{
+	width : 40%;
+	height : auto;
+	position: absolute;
+	left: 5%;
+	top : 1525px;
+	z-index: 1;
+}
+
+
+
+
+.logo_reseaux
+{
+	width : 20px;
+	height : 20px;
+	position: relative;
+	bottom : -5px;
+	z-index: 30;
+}
+
+.contact
+{
+	background:#989898 ; 
+	font-family : Bodoni MT Condensed;
+	padding: 5px;
+	width : 100%;
+	position : absolute;
+	top : 2100px;
+	text-align: center;
+}
+
+
+
